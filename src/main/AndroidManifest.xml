@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.niru.newdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication3">
+        <activity android:name=".Comingsoon"></activity>
+        <activity android:name=".ModeOfPlay" />
+        <activity android:name=".OfflinePlay" />
+        <activity android:name=".Playername" />
+        <activity android:name=".Edit" />
+        <activity android:name=".Join" />
+        <activity android:name=".Create" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
